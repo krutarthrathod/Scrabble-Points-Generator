@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="601.0" prefWidth="647.0" style="-fx-background-color: #deb435;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment2_200393445.FXMLDocumentController">
+   <children>
+      <Label fx:id="Last_Word" layoutX="147.0" layoutY="562.0" prefWidth="250.0" />
+      <Button fx:id="Submit_Button" layoutX="483.0" layoutY="104.0" mnemonicParsing="false" onAction="#Submit_Button_Clicked" text="Submit Word">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <GridPane layoutX="55.0" layoutY="221.0" prefHeight="320.0" prefWidth="538.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="99.0" minWidth="10.0" prefWidth="66.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.0" minWidth="10.0" prefWidth="75.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="159.0" minWidth="10.0" prefWidth="77.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="69.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="214.0" minWidth="10.0" prefWidth="67.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="10.0" prefWidth="66.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="Button_E" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="E" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_A" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="99.0" text="A" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Button fx:id="Button_B" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="101.0" text="B" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_C" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="C" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_D" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="D" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_V" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="104.0" text="V" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_K" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="K" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_Q" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="Q" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_F" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="98.0" text="F" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_G" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="105.0" text="G" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_L" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="96.0" text="L" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_M" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="100.0" text="M" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_R" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="98.0" text="R" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_W" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="96.0" text="W" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_S" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="97.0" text="S" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_X" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="98.0" text="X" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_H" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="90.0" text="H" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_N" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="N" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_T" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="T" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_Y" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="Y" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_I" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="I" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_O" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="O" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_U" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="U" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_Z" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="43.0" prefWidth="90.0" text="Z" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_J" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="99.0" text="J" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Button fx:id="Button_P" mnemonicParsing="false" onAction="#Button_Clicked" prefHeight="33.0" prefWidth="103.0" text="P" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Bell MT Bold" size="17.0" />
+               </font></Button>
+            <Label fx:id="Bag_A" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_B" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_C" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_D" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_E" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_F" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_G" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_H" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_I" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_J" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_K" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_L" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_M" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_N" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_O" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_P" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_R" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_S" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_T" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_U" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_W" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_X" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_Y" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="Bag_Z" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="9">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label text="3" textFill="#070bf5" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label text="3" textFill="#070bf5" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="2" textFill="#070bf5" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="4" textFill="#070bf5" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="2" textFill="#070bf5" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="4" textFill="#070bf5" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="8" textFill="#070bf5" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="5" textFill="#070bf5" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="3" textFill="#070bf5" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="3" textFill="#070bf5" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="10" textFill="#070bf5" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="1" textFill="#070bf5" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="4" textFill="#070bf5" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="4" textFill="#070bf5" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="8" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="8" textFill="#070bf5" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="8" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="4" textFill="#070bf5" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="8" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="10" textFill="#070bf5" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="8" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="2.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="Bag_Q" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="Bag_V" alignment="CENTER" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Label alignment="CENTER" layoutX="391.0" layoutY="27.0" prefHeight="30.0" prefWidth="184.0" text="Total Points =" wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </Label>
+      <Label fx:id="Total_Points" layoutX="575.0" layoutY="14.0" prefHeight="61.0" prefWidth="58.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label text="Scrabble" textFill="#eb0505">
+         <font>
+            <Font name="Jokerman" size="63.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="558.0" text="Previous Word = ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Button fx:id="Restart_Button" layoutX="483.0" layoutY="154.0" mnemonicParsing="false" onAction="#Restart_Button_Clicked" prefHeight="40.0" prefWidth="124.0" text="Restart">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="Input_Box" layoutX="14.0" layoutY="104.0" prefHeight="38.0" prefWidth="457.0" style="-fx-background-color: white;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label fx:id="Error_Message" layoutX="14.0" layoutY="155.0" prefHeight="38.0" prefWidth="457.0" style="-fx-background-color: white;" textFill="#f80303">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="501.0" layoutY="571.0" text="© Krutarthkumar Rathod" />
+   </children>
+</AnchorPane>
